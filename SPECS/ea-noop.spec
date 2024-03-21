@@ -3,7 +3,7 @@ Version:        1.0
 # Doing release_prefix this way for Release allows for OBS-proof versioning, See EA-4552 for more details
 %define release_prefix 1
 Release:        %{release_prefix}%{?dist}.cpanel
-Summary:        Noop package for U20
+Summary:        Noop package that helps solve dep issue
 License:        GPL
 Group:          System Environment/Libraries
 URL:            http://www.cpanel.net
