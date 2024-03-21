@@ -1,4 +1,4 @@
-Name:           ea-noop-u20
+Name:           ea-noop
 Version:        1.0
 # Doing release_prefix this way for Release allows for OBS-proof versioning, See EA-4552 for more details
 %define release_prefix 1
