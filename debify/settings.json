@@ -1,6 +1,6 @@
 {
     "no_files_pkgs": {
-        "ea-noop": "This package does nothing but satisfy required dependencies in other Ubuntu versions."
+        "ea-noop-u20": "This package does nothing but satisfy required dependencies in other Ubuntu versions."
     }
 }
 
