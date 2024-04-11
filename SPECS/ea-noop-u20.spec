@@ -10,6 +10,8 @@ URL:            http://www.cpanel.net
 Vendor:         cPanel, Inc.
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+Provides: libavif-bin, libavif-dev
+
 %description
 This package does nothing but satisfy required dependencies in other Ubuntu versions.
 
