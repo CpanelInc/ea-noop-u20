@@ -1,4 +1,4 @@
-Name:           ea-noop
+Name:           ea-noop-u20
 Version:        1.0
 # Doing release_prefix this way for Release allows for OBS-proof versioning, See EA-4552 for more details
 %define release_prefix 1
@@ -9,6 +9,8 @@ Group:          System Environment/Libraries
 URL:            http://www.cpanel.net
 Vendor:         cPanel, Inc.
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+
+Provides: libavif-bin, libavif-dev
 
 %description
 This package does nothing but satisfy required dependencies in other Ubuntu versions.
